@@ -7,65 +7,62 @@
 	},
 	"item": [
 		{
+			"name": "invalid auth",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "nickt95",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://gentle-escarpment-33390.herokuapp.com/deletes",
+					"protocol": "https",
+					"host": [
+						"gentle-escarpment-33390",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"deletes"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
 			"name": "get test",
 			"request": {
 				"method": "GET",
 				"header": [],
-				"body": {},
-				"url": {
-					"raw": ""
+				"body": {
+					"mode": "raw",
+					"raw": "test echo"
 				},
-				"description": ""
-			},
-			"response": []
-		},
-		{
-			"name": "delete test",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"body": {},
 				"url": {
-					"raw": ""
-				},
-				"description": ""
-			},
-			"response": []
-		},
-		{
-			"name": "put test",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": ""
-				},
-				"description": ""
-			},
-			"response": []
-		},
-		{
-			"name": "post test",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": ""
-				},
-				"description": ""
-			},
-			"response": []
-		},
-		{
-			"name": "invalid address",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": ""
+					"raw": "https://gentle-escarpment-33390.herokuapp.com/gets",
+					"protocol": "https",
+					"host": [
+						"gentle-escarpment-33390",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"gets"
+					]
 				},
 				"description": ""
 			},
@@ -78,20 +75,119 @@
 				"header": [],
 				"body": {},
 				"url": {
-					"raw": ""
+					"raw": "https://gentle-escarpment-33390.herokuapp.com/puts",
+					"protocol": "https",
+					"host": [
+						"gentle-escarpment-33390",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"puts"
+					]
 				},
 				"description": ""
 			},
 			"response": []
 		},
 		{
-			"name": "invalid auth",
+			"name": "invalid address",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"body": {},
 				"url": {
-					"raw": ""
+					"raw": "https://gentle-escarpment-33390.herokuapp.com/",
+					"protocol": "https",
+					"host": [
+						"gentle-escarpment-33390",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						""
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "post test",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://gentle-escarpment-33390.herokuapp.com/posts",
+					"protocol": "https",
+					"host": [
+						"gentle-escarpment-33390",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "put test",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://gentle-escarpment-33390.herokuapp.com/puts",
+					"protocol": "https",
+					"host": [
+						"gentle-escarpment-33390",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"puts"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "delete test",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "1234",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "nickt95",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://gentle-escarpment-33390.herokuapp.com/deletes",
+					"protocol": "https",
+					"host": [
+						"gentle-escarpment-33390",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"deletes"
+					]
 				},
 				"description": ""
 			},
